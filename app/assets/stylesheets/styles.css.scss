@@ -1,0 +1,20 @@
+$baseFontFamily: Oxygen;
+$bodyBackground: #000000;
+$btnPrimaryBackground: #63411C;
+$btnPrimaryHighlight: #000000;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: #001001;
+	a {
+		color: $gray;
+	}
+}
